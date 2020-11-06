@@ -285,8 +285,16 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 
 At the end, this function should return the new array with information added"*/
 
-function addArtist(/*Your Code Here*/){
-    /*Your Code Here*/
+function addArtist(array){
+    array.push({
+      id: 20,
+      name: "Ruben Ramirez", 
+      years: "1995 - 2020",
+      genre: "Web Design", 
+      nationality: "Mexican American",
+      bio: "Super cool dude who is going to create an awesome company." 
+    })
+    return array;
   }
 
   
